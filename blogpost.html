@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blogpost</title>
+    <style>
+        .blog-container{
+            margin: auto;
+            border: 3px solid black;
+            border-radius:15px;
+            padding: 20px;
+            height: 500px;
+            width: 400px;
+        }
+        p::first-line{
+            font-weight: bolder;
+        }
+        p::first-letter{
+            font-size: xx-large;
+            color: red;
+        }
+        blockquote::before{
+            content: " '' ";
+        }
+        a:visited{
+            color: purple;
+        }
+        a:hover{
+            font-weight: bolder;
+        }
+        .subheading h4{
+            display: inline-block;
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="blog-container">
+        <h2>Air pollution due to vehicles</h2>
+        <h3>Jhon Doe</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsum ipsa consequatur nisi. Odit, voluptates aut sapiente illum minima veritatis laboriosam quasi aspernatur impedit nulla blanditiis sed tempora maiores ab.
+            Optio cupiditate voluptatem, eaque laborum enim libero illo. Quos temporibus laboriosam soluta optio obcaecati quo laudantium nam accusamus perspiciatis explicabo, doloribus dolore esse veritatis, unde dicta, vero maxime facere eius!
+            Iste architecto laudantium velit maxime, illum assumenda, iusto suscipit accusantium libero ad atque eligendi voluptas commodi vel eveniet? Ipsam, minima numquam. Non nulla at beatae placeat delectus eaque cumque enim. <a href="#">Read more</a>
+        </p>
+        <blockquote>Vehicle emissions are one of the leading contributors to urban air pollution, releasing harmful gases that affect both the environment and human health.</blockquote>
+        <div class="subheading">
+            <h4>Air Pollution</h4>
+            <h4>Noise Pollution</h4>
+        </div>
+    </div>
+</body>
+</html>
