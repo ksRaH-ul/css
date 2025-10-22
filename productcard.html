@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: rgb(136, 185, 237);
+        }
+        .div{
+            
+            margin: auto;
+            padding:20px;
+        }
+        .image{
+            border:2px solid black;
+            border-radius:20px 0px 20px 0px;
+        }
+        p{
+            font-size: xx-large;
+        }
+        @media(max-width: 600px)  
+        {
+            p{
+                font-size: medium;
+            }
+            .div{
+                text-align: center;
+                margin: 0 auto;
+            }
+         }
+         @media(orientation: landscape)
+         {
+            body{
+                background: rgb(230, 96, 96);
+            }
+         }
+    </style>
+</head>
+<body>
+   <div class="div">
+    <img class="image"   src="https://p1-ofp.static.pub/medias/25694757880_New_AG_202303210427441744114806752.png" alt="laptop">
+    <p>HP Laptop</p>
+    <button>Buy Now</button>
+   </div>
+</body>
+</html>
