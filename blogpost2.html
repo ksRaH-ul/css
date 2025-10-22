@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogPost</title>
+    <style>
+      .Main{
+        background-color: aquamarine;
+      }
+      img{
+        width: 300px;
+        height: 300px;
+      }
+      .cont1{
+        border: 2px solid black;
+        padding: 10px;
+        display: inline-block;
+        margin-right: 20px;
+        margin-left: 20px;
+      }
+      .cont2{
+        border: 2px solid black;
+        padding: 10px;
+        display: inline-block;
+        margin-right: 20px;
+      }
+      .cont3{ 
+        border: 2px solid black;
+        padding: 10px;
+        display: inline-block;
+        margin-right: 20px;
+      }
+      h3{
+        font-size:xx-large;
+      }
+      a{
+        color:green;
+      }
+      [href^="https:"]
+    {
+      color: red;
+      }
+      [src$="jpg"]
+      {
+        border-radius: 0px 40px 0px 40px;
+      }
+      @media(max-width:600px){
+        .cont1{
+          display:block;
+          padding: 10px;
+          margin-bottom: 20px;
+        }
+        .cont2{
+          display: block;
+          padding: 10px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+        .cont3{
+          display:block;
+          margin-bottom: 20px;
+          padding: 10px;
+        }
+        h3{
+          font-size:medium;
+        }
+
+      }
+      @media(orientation: portrait){
+        .Main{
+          background-color: lightyellow;
+        }
+      }
+          </style>
+    
+</head>
+<body>
+  <div class="Main">
+    <div class="cont1">
+        <h3>Sports</h3>
+        <img src="images/sports.webp" alt="sports">
+        <br>
+        <a href="http://www.mashupstack.com/">Read More</a>
+    </div>
+    <div class="cont2">
+        <h3>Rare earth minerlas</h3>
+        <img src="images/stone.jpeg" alt="stones">
+        <br>
+        <a href="https://en.wikipedia.org/wiki/Flower">Read More </a>
+    </div>
+    <div class="cont3">
+        <h3>Flowers</h3>
+        <img src="images/flowers.jpg" alt="flower">
+        <br>
+        <a href="https://en.wikipedia.org/wiki/Flower">Read More</a>
+    </div>
+  </div>
+</body>
+</html>
